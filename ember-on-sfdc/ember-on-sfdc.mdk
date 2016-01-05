@@ -1,0 +1,60 @@
+Title         : Ember on SalesForce
+Author        : Andrew Steele
+Logo          : True
+
+[INCLUDE=presentation]
+
+[TITLE]
+
+# Overview
+
+- Quick look at Ember vs. Angular
+- Introduction to Praying Mantis' Ember app
+- Adapting to SalesForce
+
+# Comparing Ember and Angular
+
+- Both are MVC JS frameworks
+- Ember influenced by Rails, Angular influenced by Java
+- Ember emphasizes convention over configuration
+  - Faster prototyping, occasionally annoying having everything automagically work
+- Angular uses directives where Ember uses components
+- Ember has Routes in addition to Controllers
+- Angular inserts itself into the HTML of your page, Ember uses Handlebars to create HTML
+- Ember Data for database sync instead of JSR mocks
+{.fragmented}
+
+# Praying Mantis
+
+- One-Button spin up and deploy of starter envs and such
+- Project Setup Wizard
+- Models: Team Members/Contacts, Environments, Toolings/Repos
+- Backend does the heavy lifting
+{.fragmented}
+
+# Adapting to SalesForce
+
+- Build local first using Ember CLI and built-in server
+- Then build for remote server using MavensMate and resource bundling
+
+## Local Demo 
+
+## Fixtures for temp data
+
+![Screenshot 2016-01-04 14.17.07]
+
+## Team Member adapter setup
+![Screenshot 2016-01-04 14.18.49]
+[Screenshot 2016-01-04 14.18.49]: images/Screenshot-2016-01-04-14.18.49.png "Screenshot 2016-01-04 14.18.49" { width:auto; max-width:90% }
+
+## SalesForce Adapter (demo)
+
+## Deploy handoff
+![Screenshot 2016-01-04 14.19.55]
+
+## The Apex Page (demo)
+
+[Screenshot 2016-01-04 14.19.55]: images/Screenshot-2016-01-04-14.19.55.png "Screenshot 2016-01-04 14.19.55" { width:auto; max-width:90% }
+
+[Screenshot 2016-01-04 14.17.07]: images/Screenshot-2016-01-04-14.17.07.png "Screenshot 2016-01-04 14.17.07" { width:auto; max-width:90% }
+## Remote demo
